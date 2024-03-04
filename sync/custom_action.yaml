@@ -1,0 +1,92 @@
+ACT-CAT-CUSTOM-06411a0a-fcbf-4a2b-871a-f26d8201623e:
+  action_category_name: 引数無しカテゴリ
+  icon: ''
+  color: '#2F2734'
+  custom_data:
+    file_name: NoArgsCategory
+    pip_list: []
+    library_list: []
+  actions:
+    ACT-CUSTOM-2a024906-a94b-40f3-9ffd-181f55b36986:
+      action_name: NoArgカスタム動作A
+      action_type: operation
+      action_format: NoArgカスタム動作A
+      action_note: 確実にスキップします。
+      action_args: []
+      action_def:
+      - - SKIP IF
+        - '"A" == "A"'
+    ACT-CUSTOM-5d6ac4d0-71dd-4f3f-892b-87b2c19fcb4d:
+      action_name: NoArgカスタム動作B
+      action_type: operation
+      action_format: NoArgカスタム動作B
+      action_note: SKIPしない
+      action_args: []
+      action_def:
+      - - SKIP IF
+        - '"A" == "BBB"'
+ACT-CAT-CUSTOM-576b7b0b-fac2-44b7-9786-9a48a86ff9e9:
+  action_category_name: 引数を使用カテゴリ
+  icon: ''
+  color: '#f292b4'
+  custom_data:
+    file_name: ArgsCategory
+    pip_list: []
+    library_list: []
+  actions:
+    ACT-CUSTOM-99c770bb-0aca-43b1-b49d-5f83bc96a988:
+      action_name: 画面定義を使用するカスタム動作1
+      action_type: operation
+      action_format: 画面定義を使用するカスタム動作1「設定値」「画面名」「要素名」
+      action_note: 画面定義を使用するカスタム動作1。確実にSKIPしません。
+      action_args:
+      - screen
+      - element
+      - value
+      action_def:
+      - - SKIP IF
+        - '"A" == "BBB"'
+    ACT-CUSTOM-1b925110-be77-43a4-bda5-bc1135546c0a:
+      action_name: 通常の変数として使用するカスタム動作2
+      action_type: operation
+      action_format: 「設定値1」「設定値2」「設定値3」を通常の変数として使用するカスタム動作2
+      action_note: 通常の変数として使用するカスタム動作2。確実にSKIPします。
+      action_args:
+      - value1
+      - value2
+      - value3
+      action_def:
+      - - SKIP IF
+        - '"A" == "A"'
+    ACT-CUSTOM-a777006c-0ab8-4b2d-abbb-79bda19c2d0d:
+      action_name: 通常の変数として使用するカスタム動作3
+      action_type: operation
+      action_format: 「設定値1」「設定値2」を通常の変数として使用するカスタム動作3
+      action_note: 通常の変数として使用するカスタム動作3通常の変数として使用するカスタム動作3
+      action_args:
+      - value1
+      - value2
+      action_def:
+      - - SKIP IF
+        - '"A" == "A"'
+    ACT-CUSTOM-891d4d7b-f523-4058-bceb-c333beafd0ec:
+      action_name: 通常の変数として使用するカスタム動作4
+      action_type: expectation
+      action_format: 「設定値1」を通常の変数として使用するカスタム動作3
+      action_note: 通常の変数として使用するカスタム動作3通常の変数として使用するカスタム動作3通常の変数として使用するカスタム動作3
+      action_args:
+      - value1
+      action_def:
+      - - SKIP IF
+        - '"A" == "A"'
+    ACT-CUSTOM-fd5a131d-30c1-41ba-91cb-9cbc3dc20ecf:
+      action_name: 「設定値」「画面名」「要素名」画面定義を使用するカスタム動作5
+      action_type: operation
+      action_format: 「画面名」「要素名」画面定義を使用するカスタム動作5
+      action_note: 画面定義を使用するカスタム動作
+      action_args:
+      - screen
+      - element
+      action_def:
+      - - SKIP IF
+        - '"A" == "A"'

@@ -1,0 +1,249 @@
+- コンボボックス:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Combo_Box.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Usage.Male」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Multiple」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Multiple.Male」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Clearable」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Clearable.Male」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Clearable.Clear」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Small_Chips」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Combo_Box.Small_Chips.Male」をクリックする
+    - ブラウザを閉じる
+- ボタン:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Button.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Icon1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Icon2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Icon3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Rounded」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Outlined」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button.Loaders」をクリックする
+    - ブラウザを閉じる
+- ボタングループ:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Button_Group.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.Multiple」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.Rounded」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.Icon_Options」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Button_Group.Text_and_Icon_Options」をクリックする
+    - ブラウザを閉じる
+- チェックボックス:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「CheckBox.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「CheckBox.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Colors.Yes」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Colors.No」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Inline_Text_Field.Checkbox」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Inline_Text_Field.Text_Field」に「T-DASH」を入力する
+    - 「T-Dash_Demo_Vue」画面の「Checkbox.Label」をクリックする
+    - ブラウザを閉じる
+- フローティングボタン:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Floating_Action_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.Colors」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.Icon」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.Small_variant」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Floating_Action_Button.Speed_Dial」にマウスオーバーする
+    - ブラウザを閉じる
+- ラジオボタン:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Radio_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Colors」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Direction.Yes1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Direction.No2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Mandatory.Yes」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Mandatory.No」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Radio_Button.Label」をクリックする
+    - ブラウザを閉じる
+- レーティング:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Rating.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Rating.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Rating.Usage.star3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Rating.Half_Increments.25」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Rating.Hover.star3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Rating.Readonly.star3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Rating.Color.star3」をクリックする
+    - ブラウザを閉じる
+- セレクトボックス:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Select.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Select.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Icons」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Icons.Buzz」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Icons.title」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Multiple」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Multiple.Foo」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Multiple.Bar」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Multiple.title」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Chips」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Chips.Foo」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Chips.Fizz」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Select.Multiple.title」をクリックする
+    - ブラウザを閉じる
+- スライダー:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Slider.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Slider.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Usage.moved」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Vertical_Slider」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Vertical_Slider.moved」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Discrete_Setting」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Discrete_Setting.moved」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Icons」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Slider.Icons.moved」をクリックする
+    - ブラウザを閉じる
+- スイッチ:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Switch.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Switch.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Colors.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Colors.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Colors.3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Inset」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Switch.Loading」をクリックする
+    - ブラウザを閉じる
+- テキストフィールド:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Text_Field.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Usage」に「TextField_Usage」を入力する
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Clearable.TextField」に「TextField_Clearable」を入力する
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Clearable.Clear」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Read-only」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Text_Field.Icons」に「TextField_Icons」を入力する
+    - ブラウザを閉じる
+- トランスファーリスト:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Transfer_List.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Top.Content.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Top.Content.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Top.Content.3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Change.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Bottom.Items」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Usage.Change.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Disabled」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Search」に「1」を入力する
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Reload」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Reload」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Table_Transfer.Left.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Table_Transfer.Left.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Table_Transfer.Left.3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Transfer_List.Table_Transfer.Change.1」をクリックする
+    - ブラウザを閉じる
+- トグルボタン:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Toggle_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Usage」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Multiple.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Multiple.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Multiple.3」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Borderless」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Rounded」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Toggle_Button.Disabled」をクリックする
+    - ブラウザを閉じる
+- リスト:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「List.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「List.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「List.Action.Button.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「List.List_item_group.1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「List.Sub_group.2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「List.Sub_group.2.1」をクリックする
+    - ブラウザを閉じる
+- テーブル:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Table.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Table.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Table.Usage.Line.1」に「Jane Doe」の文字列が表示されていることを検証する
+    - 「T-Dash_Demo_Vue」画面の「Table.Search.input」に「Jane Doe」を入力する
+    - 「T-Dash_Demo_Vue」画面の「Table.Grouping.Line1」に「Admin」の文字列が表示されていることを検証する
+    - 「T-Dash_Demo_Vue」画面の「Table.Grouping.Line3」に「IT」の文字列が表示されていることを検証する
+    - 「T-Dash_Demo_Vue」画面の「Table.Row_Selection.Line.1」をクリックする
+    - ブラウザを閉じる
+- ツールチップ:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Tooltip.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Usage」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Tooltip_Positions.Top」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Tooltip_Positions.Bottom」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Tooltip_Positions.Left」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Tooltip_Positions.Right」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Color.Orange」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Color.Purple」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Color.Black」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Color.Gray」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Disabled」にマウスオーバーする
+    - 「T-Dash_Demo_Vue」画面の「Tooltip.Icon」にマウスオーバーする
+    - ブラウザを閉じる
+- ダイアログ:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Dialogs.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Usage.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Usage.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Fullscreen.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Fullscreen.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Transitions.FROM_THE_TOP.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Transitions.FROM_THE_TOP.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Transitions.FROM_THE_BOTTOM.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Transitions.FROM_THE_BOTTOM.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Persistent.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Persistent.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Scrollable.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Scrollable.Dialog.Close」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Iframe.Dialog.Open」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Dialogs.Iframe.Dialog.Open」をクリックする
+    - ブラウザを閉じる
+- アコーディオン:
+    steps:
+    - 「T-Dash_Demo_Vue」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_Vue」画面に「Accordion.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_Vue」画面の「Accordion.tag」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Usage.Header1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Usage.Header2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Multiple.Header1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Multiple.Header2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Disabled.Header2」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Focusable.Header1」をクリックする
+    - 「T-Dash_Demo_Vue」画面の「Accordion.Inset.Header2」をクリックする
+    - ブラウザを閉じる

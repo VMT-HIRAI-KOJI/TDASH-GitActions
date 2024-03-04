@@ -1,0 +1,41 @@
+- action_type: 操作
+  name: 引数を使用する動作セットA
+  format: 「設定値1」「設定値2」「設定値3」を使用する動作セットA
+  steps:
+  - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+  - 「T-Dash_Demo_html」画面の「テキストフィールド（入力済み）」に「設定値1」をキー入力する
+  - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「設定値2」をキー入力する
+  - 「T-Dash_Demo_html」画面の「テキストフィールド（入力済み）」に「設定値3」をキー入力する
+  - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+  - 「T-Dash_Demo_html」画面の「テキスト」をクリックする
+- action_type: 操作
+  name: 引数を使用する動作セットB
+  format: 「設定値1」「設定値2」を使用する動作セットB
+  steps:
+  - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+  - 「T-Dash_Demo_html」画面の「テキストフィールド（入力済み）」に「設定値1」をキー入力する
+  - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「設定値2」をキー入力する
+  - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+  - 「T-Dash_Demo_html」画面の「テキスト」をクリックする
+- action_type: 操作
+  name: 引数を使用する動作セットC
+  format: 「設定値1」を引数を使用する動作セットB
+  steps:
+  - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+  - 「T-Dash_Demo_html」画面の「テキストフィールド（入力済み）」に「設定値1」をキー入力する
+  - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+  - 「T-Dash_Demo_html」画面の「テキスト」をクリックする
+- action_type: 操作
+  name: 引数無しの動作セット1
+  format: ''
+  steps:
+  - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+  - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+  - 「T-Dash_Demo_html」画面の「テキスト」をクリックする
+- action_type: 操作
+  name: 引数無しの動作セット2
+  format: ''
+  steps:
+  - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+  - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+  - 「T-Dash_Demo_html」画面の「テキスト」をクリックする

@@ -1,0 +1,159 @@
+- コンボボックス:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Combo_Box.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Combo_Box.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Combo_Box.Button」をクリックする
+    - 「T-Dash_Demo_React」画面の「Combo_Box.Thursday」をクリックする
+    - ブラウザを閉じる
+- ボタン:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Button.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Button.button」をクリックする
+    - 「T-Dash_Demo_React」画面の「Button.button.close」をクリックする
+    - ブラウザを閉じる
+- ボタングループ:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Button_Group.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Button_Group.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Button_Group.Two」をクリックする
+    - 「T-Dash_Demo_React」画面の「Button_Group.Two.close」をクリックする
+    - ブラウザを閉じる
+- チェックボックス:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「CheckBox.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「CheckBox.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Checkbox.Enabled」をクリックする
+    - 「T-Dash_Demo_React」画面の「Checkbox.Disabled」をクリックする
+    - ブラウザを閉じる
+- フローティングボタン:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Floating_Action_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Floating_Action_Button.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Floating_Action_Button.Button」をクリックする
+    - 「T-Dash_Demo_React」画面の「Floating_Action_Button.Button.close」をクリックする
+    - ブラウザを閉じる
+- ラジオボタン:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Radio_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Radio_Button.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Radio_Button.Female」をクリックする
+    - 「T-Dash_Demo_React」画面の「Radio_Button.Male」をクリックする
+    - ブラウザを閉じる
+- レーティング:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Rating.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Rating.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Rating.star.4」をクリックする
+    - ブラウザを閉じる
+- セレクトボックス:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Select.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Select.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Select」をクリックする
+    - 「T-Dash_Demo_React」画面の「Select.40」をクリックする
+    - ブラウザを閉じる
+- スライダー:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Slider.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Slider.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Slider.before」をドラッグ後、「100,0」分移動してドロップする
+    - ブラウザを閉じる
+- スイッチ:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Switch.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Switch.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Switch.Enabled」をクリックする
+    - 「T-Dash_Demo_React」画面の「Switch.Disabled」をクリックする
+    - ブラウザを閉じる
+- テキストフィールド:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Text_Field.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Text_Field.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Text_field.Rquired」に「T-DASH」を入力する
+    - 「T-Dash_Demo_React」画面の「Text_field.Disabled」をクリックする
+    - 「T-Dash_Demo_React」画面の「Text_field.Password」に「T-DASH」を入力する
+    - 「T-Dash_Demo_React」画面の「Text_field.ReadOnly」をクリックする
+    - 「T-Dash_Demo_React」画面の「Text_field.Number」に「777」を入力する
+    - ブラウザを閉じる
+- トランスファーリスト:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Transfer_List.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Transfer_List.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Transfer_List.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Transfer_List.Left.Line1」をクリックする
+    - 「T-Dash_Demo_React」画面の「Transfer_List.LeftToRight.Checked」をクリックする
+    - 「T-Dash_Demo_React」画面の「Transfer_List.LeftToRight.All」をクリックする
+    - ブラウザを閉じる
+- トグルボタン:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Toggle_Button.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Toggle_Button.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Toggle_Button.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Toggle_Button.Android」をクリックする
+    - 「T-Dash_Demo_React」画面の「Toggle_Button.IOS」をクリックする
+    - ブラウザを閉じる
+- リスト:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「List.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「List.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「List.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「List.Start」をクリックする
+    - 「T-Dash_Demo_React」画面の「List.End」をクリックする
+    - ブラウザを閉じる
+- テーブル:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Table.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Table.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Table.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Table.Line1.Show」をクリックする
+    - 「T-Dash_Demo_React」画面の「Table.Line1.Close」をクリックする
+    - ブラウザを閉じる
+- ツールチップ:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Tooltip.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Tooltip.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Tooltip.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Tooltip.Icon」にマウスオーバーする
+    - ブラウザを閉じる
+- ダイアログ:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Dialogs.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Dialogs.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Dialogs.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Dialog.Open」をクリックする
+    - 「T-Dash_Demo_React」画面の「Dialog.Close」をクリックする
+    - ブラウザを閉じる
+- アコーディオン:
+    steps:
+    - 「T-Dash_Demo_React」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_React」画面に「Accordion.tag」が表示されるまで最大「30」秒間待機する
+    - 「T-Dash_Demo_React」画面の「Accordion.tag」をクリックする
+    - 「2」秒待機する
+    - 「T-Dash_Demo_React」画面の「Accordion.tag」をクリックする
+    - 「T-Dash_Demo_React」画面の「Accordion.Enabled.Line2」をクリックする
+    - 「T-Dash_Demo_React」画面の「Accordion.Disabled」をクリックする
+    - ブラウザを閉じる

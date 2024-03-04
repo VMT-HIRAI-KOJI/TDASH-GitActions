@@ -1,0 +1,232 @@
+- ブラウザ制御:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「https://www.t-dash.io/」をブラウザで開く
+    - 現在のブラウザで「https://www.t-dash.io/」にアクセスする
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面のリンク「遷移リンク」をクリックする
+    - ブラウザバックする
+    - ブラウザを閉じる
+    - 全てのブラウザを閉じる
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面のリンク「新規タブ遷移リンク1」をクリックする
+    - 「T-Dash_Demo_html」画面のリンク「新規タブ遷移リンク2」をクリックする
+    - 「T-DASH SAMPLE」のウィンドウを選択する
+    - 最新のウィンドウに切り替える
+    - ページをリロードする
+    - 全てのブラウザを閉じる
+- 入力操作:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「T+D」をキー入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（入力済み）」のテキストを取得する
+    - ブラウザを閉じる
+- マウス操作:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「クリック用ボタン」をクリックする
+    - 「T-Dash_Demo_html」画面の「クリック用ボタン」が表示されていたらクリックする
+    - 「T-Dash_Demo_html」画面の送信ボタン「送信ボタン」をクリックする
+    - 「T-Dash_Demo_html」画面のリンク「遷移リンク」をクリックする
+    - ブラウザバックする
+    - 「T-Dash_Demo_html」画面の「ダブルクリック用ボタン」をダブルクリックする
+    - 「T-Dash_Demo_html」画面の「マウスオーバー」にマウスオーバーする
+    - 「T-Dash_Demo_html」画面の「ドラッグ」をドラッグする
+    - 「T-Dash_Demo_html」画面の「ドロップ」にドロップする
+    - 「T-Dash_Demo_html」画面の「ドロップ」をドラッグ後、「10,10」分移動してドロップする
+    - 「T-Dash_Demo_html」画面の「クリック用ボタン」を強制クリックする
+    - 「T-Dash_Demo_html」画面の「クリック用ボタン」が見つかるまでスクロールする
+    - ブラウザを閉じる
+- 選択操作:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「チェックボックス（未選択）」にチェックを入れる
+    - 「T-Dash_Demo_html」画面の「チェックボックス（選択済）」のチェックを外す
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」のラベル「リストA」を選択する
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」のラベル「リストA」を未選択にする
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」の値「A」を選択にする
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」の値「A」を未選択にする
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」を全て選択する
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」を全て未選択にする
+    - 「T-Dash_Demo_html」の「フレーム」のフレームを選択する
+    - フレームの選択を解除する
+    - ブラウザを閉じる
+- 特殊操作:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - スクリーンショットを「スクリーンショット」に保存する
+    - 「1」秒待機する
+    - 「T-Dash_Demo_html」画面の「アラート表示ボタン」をクリックする
+    - 現在のアラートを閉じる
+    - 「T-Dash_Demo_html」画面の「3秒後要素表示ボタン」をクリックする
+    - 「T-Dash_Demo_html」画面に「3秒後要素表示ボタン（結果）」が表示されるまで最大「5」秒間待機する
+    - 「T-Dash_Demo_html」画面の「3秒後要素非表示ボタン」をクリックする
+    - 「T-Dash_Demo_html」画面に「3秒後要素非表示ボタン（結果）」が表示されなくなるまで最大「5」秒間待機する
+    - フルスクリーンショットを「ページ全体のスクリーンショット」に保存する
+    - 「T-Dash_Demo_html」画面の「OK・キャンセルアラート」をクリックする
+    - 現在のアラートのOKボタンをクリックする
+    - アラートのテキストが「OKしました。」であることを検証する
+    - 「T-Dash_Demo_html」画面の「OK・キャンセルアラート」をクリックする
+    - 現在のアラートのキャンセルボタンをクリックする
+    - アラートのテキストが「キャンセルしました。」であることを検証する
+    - 「T-Dash_Demo_html」の「属性を含むタグ」の指定属性「sampleAttribute=sampleValue」（属性名=属性値）が一致するか検証する
+    - 「T-Dash_Demo_html」の「属性を含むタグ」の属性「sampleAttribute」（属性名）の値を取得する
+    - 「T-Dash_Demo_html」画面の「属性値入力用テキストエリア」に取得した属性値を入力する
+    - 現在のブラウザサイズを「900, 600」にする
+    - テストをスキップする
+    - 全てのブラウザを閉じる
+- 特殊操作(TODO有り。Windows):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - '「T-Dash_Demo_html」画面の「ファイル添付フォーム」に「# TODO
+
+      ・パスを自身のものに変更する
+
+      　下記例では、{User.Name}部分を変更する
+
+
+      C:\\Users\\{User.Name}\\AppData\\Local\\Programs\\T-DASH\\projects\\sample41000\\data_for_sample_test\\text_files\\sample.txt」ファイルを添付する'
+    - 全てのブラウザを閉じる
+- 特殊操作(TODO有り。Mac):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - '「T-Dash_Demo_html」画面の「ファイル添付フォーム」に「# TODO
+
+      ・パスを自身のものに変更する
+
+      　下記例では、{User.Name}部分を変更する
+
+
+      　/Users/{User.Name}/T-DASH/projects/sample41000/data_for_sample_test/text_files/sample.txt」ファイルを添付する'
+    - 全てのブラウザを閉じる
+- テキスト検証:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「テキスト」に「T-DASH」の文字列が表示されていることを検証する
+    - 「T-Dash_Demo_html」画面の「テキスト」に「t-dash」の文字列が表示されていないことを検証する
+    - 「T-Dash_Demo_html」画面の「テキスト」に「DASH」の文字列が含まれていることを検証する
+    - 「T-Dash_Demo_html」画面の「テキスト」に「dash」の文字列が含まれていないことを検証する
+    - 「T-Dash_Demo_html」画面のテキストエリア「テキストエリア（入力済み）」に「T-DASHサンプル画面サイトへようこそ」が表示されていることを検証する
+    - 「T-Dash_Demo_html」画面のテキストエリア「テキストエリア（入力済み）」に「T-DASHサンプル画面サイトへようこそ！」が表示されていないことを検証する
+    - 「T-Dash_Demo_html」画面のテキストエリア「テキストエリア（入力済み）」に「T-DASH」を含むことを検証する
+    - 「T-Dash_Demo_html」画面のテキストエリア「テキストエリア（入力済み）」に「t-dash」が含まれていないことを検証する
+    - 「T-Dash_Demo_html」画面のテキストフィールド「テキストフィールド（入力済み）」に「T-DASHサンプル画面サイトへようこそ」が表示されていることを検証する
+    - 「T-Dash_Demo_html」画面のテキストフィールド「テキストフィールド（入力済み）」に「T-DASHサンプル画面サイトへようこそ！」が表示されていないことを検証する
+    - 「T-Dash_Demo_html」画面のテキストフィールド「テキストフィールド（入力済み）」に「T-DASH」を含むことを検証する
+    - 「T-Dash_Demo_html」画面のテキストフィールド「テキストフィールド（入力済み）」に「t-dash」が含まれていないことを検証する
+    - 現在開いているページのタイトルは「T-DASH SAMPLE」であることを検証する
+    - 「T-Dash_Demo_html」画面の「テキスト（正規表現マッチ）」のテキストに「[0-9a-zA-Z]」がマッチする
+    - ブラウザを閉じる
+- 表示・非表示検証:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「要素の表示」が表示されていることを検証する
+    - 「T-Dash_Demo_html」画面の「要素の非表示（削除）」をクリックする
+    - 「T-Dash_Demo_html」画面の「削除される要素」が表示されていないことを検証する
+    - ブラウザを閉じる
+- 選択状態検証:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「チェックボックス（選択済）」にチェックが入っていることを検証する
+    - 「T-Dash_Demo_html」画面の「チェックボックス（未選択）」にチェックが入っていないことを検証する
+    - 「10」秒待機する
+    - 「T-Dash_Demo_html」画面の「リスト（選択済）」を全て未選択にする
+    - 「T-Dash_Demo_html」画面の「リスト（選択済）」のラベル「リストA」を選択する
+    - 「T-Dash_Demo_html」画面の「リスト（選択済）」のラベル「リストA」が選択されていることを検証する
+    - 「T-Dash_Demo_html」画面の「リスト（未選択）」を何も選択されていないことを検証する
+    - 「T-Dash_Demo_html」画面のラジオボタン「ラジオボタン（選択済）」が選択されていることを検証する
+    - 「T-Dash_Demo_html」画面のラジオボタン「ラジオボタン（未選択）」で何も選択しないことを検証する
+    - ブラウザを閉じる
+- URL検証:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「http://localhost:8686/T-DASH_SAMPLE.html」のページを表示されていることを検証する
+    - URLに「localhost:8686」を含むページが表示されていることを検証する
+    - ブラウザを閉じる
+- 画像認識操作(Windowsかつ通常実行でのみ成功する):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/site_img.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/FullSizeScreenShot_T-DASH_htmlDemo.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン」クリックする
+    - 「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）」に「画像で特定した要素に入力する」を入力する
+    - ブラウザを閉じる
+- 画像認識操作(Windowsかつバックグラウンド実行でのみ成功する):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/site_img_chrome_background.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/FullSizeScreenShot_T-DASH_htmlDemo_Chrome_Background.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン」クリックする
+    - '「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）_バックグラウンドフォント用」に「画像で特定した要素に入力する
+
+
+      ※バックグラウンド実行ではフォントが変更される場合があります。」を入力する'
+    - ブラウザを閉じる
+- 画像認識操作(WindowsかつFireFoxの通常実行とバックグラウンド実行用):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/site_img_for_FireFox.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/FullSizeScreenShot_T-DASH_htmlDemo_FireFox_Background.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン」クリックする
+    - 「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）_FireFox用」に「画像で特定した要素に入力する」を入力する
+    - ブラウザを閉じる
+- 画像認識操作(Macかつ通常実行でのみ成功する):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_Chrome_Normal.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_FullScreenShot_Chrome_Normal.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン」クリックする
+    - 「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）_Mac用」に「画像で特定した要素に入力する」を入力する
+    - ブラウザを閉じる
+- 画像認識操作(Macかつバックグラウンド実行でのみ成功する):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_Chrome_Normal.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_FullScreenShot_Chrome_Background.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン」クリックする
+    - '「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）_バックグラウンドフォント用_Mac用」に「画像で特定した要素に入力する
+
+
+      ※バックグラウンド実行ではフォントが変更される場合があります。」を入力する'
+    - ブラウザを閉じる
+- 画像認識操作(MacかつFireFoxの通常実行とバックグラウンド実行用):
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 現在の画面と「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_FireFox.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 現在の画面のフルスクリーンショットと「projects/sample41000/data_for_sample_test/procedural_img/Mac/HtmlDemo_FullScreenShot_FireFox.png」を比較する
+    - 比較した画像の一致率が「40」％以上であることを検証する
+    - 「T-Dash_Demo_html」画面の要素画像を基に「クリック用ボタン_Mac_FireFox」クリックする
+    - 「T-Dash_Demo_html」画面の要素画像を基に「テキストエリア（入力済み）_FireFox用_Mac用」に「画像で特定した要素に入力する」を入力する
+    - ブラウザを閉じる
+- 予約語使用:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の日付時刻]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の年]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の月]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の日]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の時刻]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「[現在の秒数]」を入力する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「動作を実行した時刻：[現在の日付時刻]」を入力する
+    - 全てのブラウザを閉じる
+- データ取得/保存操作:
+    steps:
+    - 「T-Dash_Demo_html」画面のURLをブラウザで開く
+    - 「T-Dash_Demo_html」の「属性を含むタグ」の属性「sampleAttribute」（属性名）の値を取得する
+    - 「T-Dash_Demo_html」画面の「属性値入力用テキストエリア」に取得した属性値を入力する
+    - 「T-Dash_Demo_html」画面の「テキスト」のテキストを取得する
+    - 取得した値を「テスト変数」に保存する
+    - 「T-Dash_Demo_html」画面の「テキストエリア（未入力）」に「${テスト変数}」を入力する
+    - スクリーンショットを「」に保存する
+    - ブラウザを閉じる
