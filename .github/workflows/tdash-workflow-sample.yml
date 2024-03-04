@@ -76,7 +76,7 @@ jobs:
         Copy-Item $sourcePath "${{ env.TDASH_ROOT_PATH }}\projects\commandlinetestrun\" -Recurse -Force
         cd ${{ env.TDASH_ROOT_PATH }}
         # テスト実行
-        Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "testrun","IP確認テストラン", "--silent", "--background" -NoNewWindow -Wait
+        Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "testrun","IP確認テストラン", "--background" -NoNewWindow -Wait
 
     - name: Save results to artifacts
       uses: actions/upload-artifact@v3.1.2
