@@ -1,0 +1,85 @@
+name: T-DASH CI Sample
+
+# ワークフローのトリガーは以下を参照して変更してください
+# このチュートリアルでは手動実行するトリガーとしています
+# https://docs.github.com/ja/actions/using-workflows/events-that-trigger-workflows
+on:
+  workflow_dispatch:
+
+env:
+  TDASH_ROOT_PATH: "$HOME/AppData/Local/Programs/T-DASH"
+  TDASH_CMD_EXE_PATH: "$HOME/AppData/Local/Programs/T-DASH/tdash.exe"
+  TDASH_ZIP_PATH: "/tdash/tdash.zip.001"
+  TDASH_EXE_NAME: "tdash.exe"
+  ZIP_INSTALLER_URL: "https://www.7-zip.org/a/7z2300-x64.exe"
+  ZIP_INSTALL_EXE_PATH: "7zip/7z2300-x64.exe"
+  ZIP_EXE_PATH: "C:/Program Files/7-Zip/7z.exe"
+  REPORT_PATH: "C:/Users/runneradmin/AppData/Local/Programs/T-DASH/projects/commandlinetestrun/reports"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.5.2
+
+    - name: Setup Chrome (Test browser)
+      uses: browser-actions/setup-chrome@v1.2.0
+      with:
+        chrome-version: latest
+
+    - name: 7-zip install
+      run: |
+        New-Item -Path "7zip" -ItemType Directory
+        Invoke-WebRequest -Uri "${{ env.ZIP_INSTALLER_URL }}" -OutFile "${{ env.ZIP_INSTALL_EXE_PATH }}"
+        Start-Process -FilePath "${{ env.ZIP_INSTALL_EXE_PATH }}" -ArgumentList "/S" -NoNewWindow -Wait
+
+    - name: T-DASH cmd decompress
+      run: |
+        cmd /c "${{ env.ZIP_EXE_PATH }}" x -o${{ github.workspace }} "${{ github.workspace }}${{ env.TDASH_ZIP_PATH }}"
+
+    - name: make root dir
+      run: |
+        # T-DASHルートディレクトリがない場合は作成
+        if (-not (Test-Path -Path ${{ env.TDASH_ROOT_PATH }})) {
+          New-Item -Path ${{ env.TDASH_ROOT_PATH }} -ItemType Directory
+        }
+
+    - name: T-DASH cmd copy
+      run: |
+        $sourcePath = '${{ github.workspace }}/${{ env.TDASH_EXE_NAME }}'
+        # 実行ファイルが存在する場合は削除
+        if (Test-Path ${{ env.TDASH_CMD_EXE_PATH }}) {
+            Remove-Item ${{ env.TDASH_CMD_EXE_PATH }} -Force
+        }
+        Move-Item $sourcePath ${{ env.TDASH_CMD_EXE_PATH }}
+
+    - name: Run initial setup
+      run: |
+        # T-DASHの実行環境はexeを実行したフォルダに作成されるためカレントディレクトリを移動する
+        cd ${{ env.TDASH_ROOT_PATH }}
+        # T-DASHの実行環境構築
+        Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "setup","--silent" -NoNewWindow -Wait
+
+    - name: Run the application
+      run: |
+        # リポジトリ管理しているテストを実行するsyncフォルダパス
+        $sourcePath = '${{ github.workspace }}\sync'
+        # コマンドライン実行するテスト実行環境のsyncフォルダパス
+        $destinationPath = '${{ env.TDASH_ROOT_PATH }}\projects\commandlinetestrun\sync'
+        # 共有フォルダが既に存在する場合は一度フォルダごと削除する
+        if (Test-Path $destinationPath) {
+            Remove-Item $destinationPath -Recurse -Force
+        }
+        # リポジトリのsyncをコマンドライン実行テスト環境のsyncへコピー
+        Copy-Item $sourcePath "${{ env.TDASH_ROOT_PATH }}\projects\commandlinetestrun\" -Recurse -Force
+        cd ${{ env.TDASH_ROOT_PATH }}
+        # テスト実行
+        Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "testrun","IP確認テストラン", "--silent", "--background" -NoNewWindow -Wait
+
+    - name: Save results to artifacts
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: results
+        path: ${{ env.REPORT_PATH }}
