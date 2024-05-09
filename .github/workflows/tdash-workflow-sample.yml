@@ -60,6 +60,7 @@ jobs:
         # T-DASHの実行環境はexeを実行したフォルダに作成されるためカレントディレクトリを移動する
         cd ${{ env.TDASH_ROOT_PATH }}
         # T-DASHの実行環境構築
+        set PYTHONUTF8=1
         Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "setup","--silent" -NoNewWindow -Wait
 
     - name: Run the application
