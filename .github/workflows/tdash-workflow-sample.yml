@@ -60,7 +60,6 @@ jobs:
         # T-DASHの実行環境はexeを実行したフォルダに作成されるためカレントディレクトリを移動する
         cd ${{ env.TDASH_ROOT_PATH }}
         # T-DASHの実行環境構築
-        set PYTHONUTF8=1
         Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "setup","--silent" -NoNewWindow -Wait
 
     - name: Run the application
@@ -77,7 +76,6 @@ jobs:
         Copy-Item $sourcePath "${{ env.TDASH_ROOT_PATH }}\projects\commandlinetestrun\" -Recurse -Force
         cd ${{ env.TDASH_ROOT_PATH }}
         # テスト実行
-        set PYTHONUTF8=1
         Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "testrun","IP確認テストラン", "--background" -NoNewWindow -Wait
 
     - name: Save results to artifacts
