@@ -15,12 +15,12 @@ env:
   ZIP_INSTALL_EXE_PATH: "7zip/7z2300-x64.exe"
   ZIP_EXE_PATH: "C:/Program Files/7-Zip/7z.exe"
   REPORT_PATH: "C:/Users/runneradmin/AppData/Local/Programs/T-DASH/projects/commandlinetestrun/reports"
-
+  PYTHONUTF8: "1"
 jobs:
   build:
     runs-on: windows-latest
 
-    steps:
+    steps:  
     - name: Checkout
       uses: actions/checkout@v3.5.2
 
@@ -77,6 +77,7 @@ jobs:
         Copy-Item $sourcePath "${{ env.TDASH_ROOT_PATH }}\projects\commandlinetestrun\" -Recurse -Force
         cd ${{ env.TDASH_ROOT_PATH }}
         # テスト実行
+        set PYTHONUTF8=1
         Start-Process -FilePath ${{ env.TDASH_CMD_EXE_PATH }} -ArgumentList "testrun","IP確認テストラン", "--background" -NoNewWindow -Wait
 
     - name: Save results to artifacts
